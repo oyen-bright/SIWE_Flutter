@@ -20,7 +20,11 @@ class SiweFlutter {
       required String uri,
       required String chainId}) {
     siweModel = SiweModel(
-        statement: statement, domain: domain, uri: uri, chainId: chainId);
+        statement: statement,
+        domain: domain,
+        uri: uri,
+        chainId: chainId,
+        version: version);
   }
 
   /// Creates a Siwe message for version 1.
